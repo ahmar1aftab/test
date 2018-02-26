@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_jedit" default="compile.module.jedit">
+  <dirname property="module.jedit.basedir" file="${ant.file.module_jedit}"/>
+  
+  <property name="module.jdk.home.jedit" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.jedit" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.jedit" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.jedit" value="-encoding UTF-8 -source 1.6 -target 1.6 ${compiler.args}"/>
+  
+  <property name="jedit.output.dir" value="${module.jedit.basedir}/build/classes/core"/>
+  <property name="jedit.testoutput.dir" value="${module.jedit.basedir}/build/classes/test"/>
+  
+  <path id="jedit.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="jedit.module.production.classpath">
+    <path refid="library.compile_dependencies.classpath"/>
+  </path>
+  
+  <path id="jedit.runtime.production.module.classpath">
+    <pathelement location="${jedit.output.dir}"/>
+    <path refid="library.compile_dependencies.classpath"/>
+    <path refid="library.runtime_dependencies.classpath"/>
+  </path>
+  
+  <path id="jedit.module.classpath">
+    <pathelement location="${jedit.output.dir}"/>
+    <path refid="library.test_dependencies.classpath"/>
+    <path refid="library.compile_dependencies.classpath"/>
+  </path>
+  
+  <path id="jedit.runtime.module.classpath">
+    <pathelement location="${jedit.testoutput.dir}"/>
+    <pathelement location="${jedit.output.dir}"/>
+    <path refid="library.test_dependencies.classpath"/>
+    <path refid="library.compile_dependencies.classpath"/>
+    <path refid="library.runtime_dependencies.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.jedit">
+    <patternset refid="ignored.files"/>
+    <exclude name="gjt/sp/jedit/bsh/commands/**"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.jedit">
+    <patternset refid="excluded.from.module.jedit"/>
+  </patternset>
+  
+  <path id="jedit.module.sourcepath">
+    <dirset dir="${module.jedit.basedir}">
+      <include name="org"/>
+    </dirset>
+  </path>
+  
+  <path id="jedit.module.test.sourcepath">
+    <dirset dir="${module.jedit.basedir}">
+      <include name="test"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.jedit" depends="compile.module.jedit.production,compile.module.jedit.tests" description="Compile module jEdit"/>
+  
+  <target name="compile.module.jedit.production" depends="register.custom.compilers" description="Compile module jEdit; production classes">
+    <mkdir dir="${jedit.output.dir}"/>
+    <javac2 destdir="${jedit.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.jedit}/javac">
+      <compilerarg line="${compiler.args.jedit}"/>
+      <bootclasspath refid="jedit.module.bootclasspath"/>
+      <classpath refid="jedit.module.production.classpath"/>
+      <src refid="jedit.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.jedit"/>
+    </javac2>
+    
+    <copy todir="${jedit.output.dir}/org">
+      <fileset dir="${module.jedit.basedir}/org">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.jedit.tests" depends="register.custom.compilers,compile.module.jedit.production" description="compile module jEdit; test classes" unless="skip.tests">
+    <mkdir dir="${jedit.testoutput.dir}"/>
+    <javac2 destdir="${jedit.testoutput.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.jedit}/javac">
+      <compilerarg line="${compiler.args.jedit}"/>
+      <bootclasspath refid="jedit.module.bootclasspath"/>
+      <classpath refid="jedit.module.classpath"/>
+      <src refid="jedit.module.test.sourcepath"/>
+      <patternset refid="excluded.from.compilation.jedit"/>
+    </javac2>
+    
+    <copy todir="${jedit.testoutput.dir}">
+      <fileset dir="${module.jedit.basedir}/test">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="clean.module.jedit" description="cleanup module">
+    <delete dir="${jedit.output.dir}"/>
+    <delete dir="${jedit.testoutput.dir}"/>
+  </target>
+</project>
