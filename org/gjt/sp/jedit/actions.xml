@@ -1551,6 +1551,18 @@
 	</IS_SELECTED>
 </ACTION>
 
+<ACTION NAME="toggle-scroll-bars">
+	<CODE>
+		view.toggleScrollBars();
+        jEdit.propertiesChanged();
+		 
+	</CODE>
+	<IS_SELECTED>
+		return jEdit.getBooleanProperty("view.scroll.bars.enabled");
+	</IS_SELECTED>
+</ACTION>
+
+
 <ACTION NAME="toggle-line-numbers">
 	<CODE>
 		boolean shown = jEdit.getBooleanProperty("view.gutter.lineNumbers");

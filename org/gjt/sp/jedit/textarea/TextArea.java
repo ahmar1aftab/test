@@ -108,13 +108,20 @@ public abstract class TextArea extends JPanel
 
 		// some plugins add stuff in a "right-hand" gutter
 		RequestFocusLayerUI reqFocus = new RequestFocusLayerUI();
+		
+		//Change Request#2: added variable for storing Box object
+		horizontalBox = new Box(BoxLayout.Y_AXIS);
 		verticalBox = new Box(BoxLayout.X_AXIS);
+		
 		verticalBox.add(new JLayer<JComponent>(
 			vertical = new JScrollBar(Adjustable.VERTICAL), reqFocus));
 		vertical.setRequestFocusEnabled(false);
+		
+		//Change Request#2 adding component
+		horizontalBox.add(new JLayer<JComponent>(
+				horizontal = new JScrollBar(Adjustable.HORIZONTAL), reqFocus));
 		add(ScrollLayout.RIGHT,verticalBox);
-		add(ScrollLayout.BOTTOM, new JLayer<JComponent>(
-			horizontal = new JScrollBar(Adjustable.HORIZONTAL), reqFocus));
+		add(ScrollLayout.BOTTOM, horizontalBox);
 		horizontal.setRequestFocusEnabled(false);
 
 		horizontal.setValues(0,0,0,0);
@@ -152,6 +159,20 @@ public abstract class TextArea extends JPanel
 		focusedComponent = this;
 	} //}}}
 
+	
+	//Change Request#2: returns the vertical scroll bar component
+	public Box getVerticalBox() {
+		
+		return verticalBox;
+	}
+	
+	//Change Request#2 returns the horizontal scroll bar component
+	public Box getHorizontalBox() {
+		
+		return horizontalBox;
+	}
+	
+	
 	//{{{ getFoldPainter() method
 	public FoldPainter getFoldPainter()
 	{
@@ -5275,6 +5296,7 @@ loop:		for(int i = lineNo - 1; i >= 0; i--)
 
 	// JDiff, error list add stuff here
 	private final Box verticalBox;
+	private final Box horizontalBox;
 	private final JScrollBar vertical;
 	private final JScrollBar horizontal;
 
