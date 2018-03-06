@@ -23,7 +23,17 @@
 package org.gjt.sp.jedit;
 
 //{{{ Imports
-import java.awt.*;
+import java.awt.AWTEvent;
+import java.awt.BorderLayout;
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.Cursor;
+import java.awt.Dimension;
+import java.awt.EventQueue;
+import java.awt.Frame;
+import java.awt.GraphicsDevice;
+import java.awt.KeyboardFocusManager;
+import java.awt.Rectangle;
 import java.awt.event.FocusAdapter;
 import java.awt.event.FocusEvent;
 import java.awt.event.KeyEvent;
@@ -39,15 +49,17 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
-
 import java.util.TreeSet;
 
 import javax.annotation.Nonnull;
 import javax.annotation.Nullable;
+import javax.swing.Box;
 import javax.swing.JComponent;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
@@ -69,13 +81,13 @@ import org.gjt.sp.jedit.gui.CloseDialog;
 import org.gjt.sp.jedit.gui.DefaultInputHandler;
 import org.gjt.sp.jedit.gui.DockableWindowFactory;
 import org.gjt.sp.jedit.gui.DockableWindowManager;
-import org.gjt.sp.jedit.gui.HistoryModel;
+import org.gjt.sp.jedit.gui.DockableWindowManager.DockingLayout;
 import org.gjt.sp.jedit.gui.DockingFrameworkProvider;
+import org.gjt.sp.jedit.gui.HistoryModel;
 import org.gjt.sp.jedit.gui.InputHandler;
 import org.gjt.sp.jedit.gui.StatusBar;
 import org.gjt.sp.jedit.gui.ToolBarManager;
 import org.gjt.sp.jedit.gui.VariableGridLayout;
-import org.gjt.sp.jedit.gui.DockableWindowManager.DockingLayout;
 import org.gjt.sp.jedit.input.InputHandlerProvider;
 import org.gjt.sp.jedit.msg.BufferUpdate;
 import org.gjt.sp.jedit.msg.EditPaneUpdate;
@@ -87,6 +99,7 @@ import org.gjt.sp.jedit.search.CurrentBufferSet;
 import org.gjt.sp.jedit.search.SearchAndReplace;
 import org.gjt.sp.jedit.search.SearchBar;
 import org.gjt.sp.jedit.textarea.JEditTextArea;
+import org.gjt.sp.jedit.textarea.ScrollLayout;
 import org.gjt.sp.jedit.textarea.ScrollListener;
 import org.gjt.sp.jedit.textarea.TextArea;
 import org.gjt.sp.jedit.visitors.JEditVisitor;
@@ -143,6 +156,9 @@ public class View extends JFrame implements InputHandlerProvider
 
 	//{{{ ToolBar-related constants
 
+	//Change Request#2: added a hashmap DS to store the values of horizontal and Vertical scroll bars
+	public static Map<String,Box> textAreaConfigCache = new HashMap<String,Box>();
+	
 	public static final String VIEW_DOCKING_FRAMEWORK_PROPERTY = "view.docking.framework";
 	private static final String ORIGINAL_DOCKING_FRAMEWORK = "Original";
 	public static final String DOCKING_FRAMEWORK_PROVIDER_SERVICE =
@@ -1416,6 +1432,47 @@ public class View extends JFrame implements InputHandlerProvider
 		return fullScreenMode;
 	}//}}}
 
+	//Change Request#2 for performing toggle operations of scroll Bars
+	public void toggleScrollBars()
+	{
+	
+		TextArea textArea = editPane.getTextArea();
+		
+		
+		
+		if (!jEdit.getBooleanProperty("view.scroll.bars.enabled")) {
+	
+			textAreaConfigCache.put("verticalBox",textArea.getVerticalBox());
+			textAreaConfigCache.put("horizontalBox",textArea.getHorizontalBox());
+			textArea.remove(textArea.getVerticalBox());	
+			textArea.remove(textArea.getHorizontalBox());
+			jEdit.setBooleanProperty("view.scroll.bars.enabled", true);
+		}else if (jEdit.getBooleanProperty("view.scroll.bars.enabled")){
+			
+			if (textAreaConfigCache.get("verticalBox") != null) {
+				textArea.add(ScrollLayout.RIGHT,textAreaConfigCache.get("verticalBox"));	
+			}
+			
+			if (textAreaConfigCache.get("horizontalBox") != null) {
+				textArea.add(ScrollLayout.BOTTOM,textAreaConfigCache.get("horizontalBox"));	
+			}
+			jEdit.setBooleanProperty("view.scroll.bars.enabled", false);
+			
+		}
+			
+		
+	
+		
+
+		
+		textArea.revalidate();
+		// so you can keep typing in your editpane afterwards...
+		textArea.requestFocus();
+		
+		//
+		//toggleFullScreen();
+	}
+	
 	//{{{ toggleFullScreen() method
 	public void toggleFullScreen()
 	{
