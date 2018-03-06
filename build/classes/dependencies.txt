@@ -14708,12 +14708,15 @@ org.gjt.sp.jedit.menu.RecentFilesProvider$1
 java.lang.Object
 java.lang.String
 org.gjt.sp.jedit.menu.DynamicMenuProvider
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.gui.ActionBar$CompletionPopup$MouseHandler
 java.awt.event.MouseAdapter
 org.gjt.sp.jedit.gui.ActionBar$1
 org.gjt.sp.jedit.gui.ActionBar$CompletionPopup
 org.gjt.sp.jedit.gui.ActionBar$CompletionPopup$MouseHandler
 org.gjt.sp.jedit.gui.ActionBar
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.search.SearchBar$KeyHandler
 org.gjt.sp.jedit.EditPane
 org.gjt.sp.jedit.View
@@ -14721,6 +14724,15 @@ org.gjt.sp.jedit.search.SearchBar
 java.awt.event.KeyAdapter
 org.gjt.sp.jedit.search.SearchBar$KeyHandler
 java.awt.event.KeyEvent
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.gui.ActionBar$CompletionPopup$MouseHandler
+java.awt.event.MouseAdapter
+org.gjt.sp.jedit.gui.ActionBar$1
+org.gjt.sp.jedit.gui.ActionBar$CompletionPopup
+org.gjt.sp.jedit.gui.ActionBar$CompletionPopup$MouseHandler
+org.gjt.sp.jedit.gui.ActionBar
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.bsh.DelayedEvalBshMethod
 java.lang.StringBuilder
 org.gjt.sp.jedit.bsh.BshMethod
@@ -14788,6 +14800,19 @@ org.gjt.sp.util.IOUtilities
 org.gjt.sp.jedit.Marker
 java.lang.Object
 java.lang.String
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.SettingsXML
+java.lang.StringBuilder
+java.io.File
+org.gjt.sp.jedit.SettingsXML$Saver
+org.gjt.sp.util.XMLUtilities
+org.gjt.sp.jedit.SettingsXML
+org.gjt.sp.jedit.MiscUtilities
+java.io.IOException
+java.lang.Object
+java.io.FileInputStream
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.AboutDialog
 javax.swing.JDialog
 javax.swing.JPanel
@@ -14803,6 +14828,7 @@ java.awt.BorderLayout
 javax.swing.JButton
 java.awt.event.ActionListener
 org.gjt.sp.jedit.gui.AboutDialog$AboutPanel
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.SettingsXML
 java.lang.StringBuilder
 java.io.File
@@ -14813,15 +14839,24 @@ org.gjt.sp.jedit.MiscUtilities
 java.io.IOException
 java.lang.Object
 java.io.FileInputStream
+=======
+||:org.gjt.sp.jedit.JEditBeanShellAction$1
+java.lang.Object
+org.gjt.sp.jedit.JEditBeanShellAction$1
+org.gjt.sp.jedit.JEditBeanShellAction
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.ActionContext
 org.gjt.sp.jedit.EditAction
 org.gjt.sp.jedit.ActionContext
 org.gjt.sp.jedit.ActionSet
 org.gjt.sp.jedit.JEditActionContext
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.JEditBeanShellAction$1
 java.lang.Object
 org.gjt.sp.jedit.JEditBeanShellAction$1
 org.gjt.sp.jedit.JEditBeanShellAction
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.options.BrowserColorsModel
 java.lang.StringBuilder
 org.gjt.sp.jedit.options.BrowserColorsModel
@@ -14835,10 +14870,21 @@ java.lang.InternalError
 javax.swing.UIManager
 java.lang.String
 javax.swing.table.AbstractTableModel
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.options.ModeSettingsPane$1
 java.lang.Object
 org.gjt.sp.jedit.options.ModeSettingsPane
 org.gjt.sp.jedit.options.ModeSettingsPane$1
+=======
+||:org.gjt.sp.jedit.bsh.Modifiers
+java.lang.Object
+java.lang.Void
+java.io.Serializable
+java.util.Hashtable
+java.lang.StringBuilder
+org.gjt.sp.jedit.bsh.Modifiers
+java.lang.IllegalStateException
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.options.BufferOptionPane$ActionHandler
 javax.swing.JComboBox
 org.gjt.sp.jedit.options.BufferOptionPane$1
@@ -14849,6 +14895,7 @@ javax.swing.JCheckBox
 java.lang.Object
 java.awt.event.ActionListener
 org.gjt.sp.jedit.options.BufferOptionPane$ActionHandler
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.bsh.Modifiers
 java.lang.Object
 java.lang.Void
@@ -14874,6 +14921,12 @@ javax.swing.table.TableColumn
 org.gjt.sp.jedit.options.SyntaxHiliteOptionPane$StyleTableModel
 org.gjt.sp.jedit.options.SyntaxHiliteOptionPane
 javax.swing.JTable
+=======
+||:org.gjt.sp.jedit.options.ModeSettingsPane$1
+java.lang.Object
+org.gjt.sp.jedit.options.ModeSettingsPane
+org.gjt.sp.jedit.options.ModeSettingsPane$1
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.FilteredTableModel
 java.lang.StringBuilder
 java.util.Vector
@@ -14892,6 +14945,26 @@ javax.swing.table.AbstractTableModel
 java.lang.Integer
 java.lang.String
 javax.swing.JTable
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.options.SyntaxHiliteOptionPane
+org.gjt.sp.jedit.options.SyntaxHiliteOptionPane$MouseHandler
+org.gjt.sp.jedit.options.SyntaxHiliteOptionPane$1
+java.lang.Math
+javax.swing.JScrollPane
+javax.swing.border.EmptyBorder
+javax.swing.table.TableColumnModel
+javax.swing.table.JTableHeader
+java.awt.Dimension
+org.gjt.sp.jedit.options.SyntaxHiliteOptionPane$StyleTableModel$StyleRenderer
+org.gjt.sp.util.GenericGUIUtilities
+java.awt.BorderLayout
+org.gjt.sp.jedit.AbstractOptionPane
+javax.swing.table.TableColumn
+org.gjt.sp.jedit.options.SyntaxHiliteOptionPane$StyleTableModel
+org.gjt.sp.jedit.options.SyntaxHiliteOptionPane
+javax.swing.JTable
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.LogViewer$ListHandler
 java.lang.Object
 org.gjt.sp.jedit.gui.LogViewer$ListHandler
@@ -14919,22 +14992,8 @@ org.gjt.sp.jedit.jEdit
 org.gjt.sp.jedit.search.SearchMatcher
 java.lang.Object
 java.lang.String
-||:org.gjt.sp.jedit.gui.DockablePanel$ResizeMouseHandler
-javax.swing.border.Border
-java.awt.Cursor
-org.gjt.sp.jedit.gui.DockableWindowManagerImpl
-org.gjt.sp.jedit.gui.DockablePanel$ResizeMouseHandler
-java.awt.event.MouseEvent
-java.lang.InternalError
-java.awt.Insets
-java.awt.Point
-java.awt.event.MouseAdapter
-org.gjt.sp.jedit.gui.DockableWindowManager
-java.awt.event.MouseMotionListener
-org.gjt.sp.jedit.gui.PanelWindowContainer
-javax.swing.UIManager
-org.gjt.sp.jedit.gui.DockablePanel
-java.lang.String
+<<<<<<< HEAD
+=======
 ||:org.gjt.sp.jedit.bsh.BSHMethodDeclaration
 java.lang.StringBuilder
 org.gjt.sp.jedit.bsh.Interpreter
@@ -14951,6 +15010,51 @@ org.gjt.sp.jedit.bsh.EvalError
 org.gjt.sp.jedit.bsh.UtilEvalError
 java.lang.Object
 org.gjt.sp.jedit.bsh.NameSpace
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
+||:org.gjt.sp.jedit.gui.DockablePanel$ResizeMouseHandler
+javax.swing.border.Border
+java.awt.Cursor
+org.gjt.sp.jedit.gui.DockableWindowManagerImpl
+org.gjt.sp.jedit.gui.DockablePanel$ResizeMouseHandler
+java.awt.event.MouseEvent
+java.lang.InternalError
+java.awt.Insets
+java.awt.Point
+java.awt.event.MouseAdapter
+org.gjt.sp.jedit.gui.DockableWindowManager
+java.awt.event.MouseMotionListener
+org.gjt.sp.jedit.gui.PanelWindowContainer
+javax.swing.UIManager
+org.gjt.sp.jedit.gui.DockablePanel
+java.lang.String
+<<<<<<< HEAD
+||:org.gjt.sp.jedit.bsh.BSHMethodDeclaration
+java.lang.StringBuilder
+org.gjt.sp.jedit.bsh.Interpreter
+org.gjt.sp.jedit.bsh.BSHMethodDeclaration
+org.gjt.sp.jedit.bsh.BSHReturnType
+org.gjt.sp.jedit.bsh.BSHBlock
+org.gjt.sp.jedit.bsh.BSHAmbiguousName
+org.gjt.sp.jedit.bsh.Primitive
+org.gjt.sp.jedit.bsh.BshMethod
+org.gjt.sp.jedit.bsh.SimpleNode
+org.gjt.sp.jedit.bsh.BSHFormalParameters
+org.gjt.sp.jedit.bsh.CallStack
+org.gjt.sp.jedit.bsh.EvalError
+org.gjt.sp.jedit.bsh.UtilEvalError
+java.lang.Object
+org.gjt.sp.jedit.bsh.NameSpace
+=======
+||:org.gjt.sp.jedit.bsh.BSHPrimaryExpression
+java.lang.Object
+org.gjt.sp.jedit.bsh.UtilEvalError
+org.gjt.sp.jedit.bsh.BSHPrimaryExpression
+org.gjt.sp.jedit.bsh.BSHPrimarySuffix
+org.gjt.sp.jedit.bsh.SimpleNode
+org.gjt.sp.jedit.bsh.BSHAmbiguousName
+org.gjt.sp.jedit.bsh.LHS
+org.gjt.sp.jedit.bsh.EvalError
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.ListModelEditor
 org.gjt.sp.jedit.gui.ListModelEditor
 java.lang.StringBuilder
@@ -14967,6 +15071,7 @@ javax.swing.table.TableColumn
 [[Ljava.lang.Object;
 java.lang.String
 javax.swing.JTable
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.bsh.BSHPrimaryExpression
 java.lang.Object
 org.gjt.sp.jedit.bsh.UtilEvalError
@@ -14976,6 +15081,15 @@ org.gjt.sp.jedit.bsh.SimpleNode
 org.gjt.sp.jedit.bsh.BSHAmbiguousName
 org.gjt.sp.jedit.bsh.LHS
 org.gjt.sp.jedit.bsh.EvalError
+=======
+||:org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory$WrapWidget$1
+org.gjt.sp.jedit.Buffer
+java.awt.event.MouseAdapter
+org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory
+org.gjt.sp.jedit.View
+org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory$WrapWidget
+org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory$WrapWidget$1
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.options.BufferOptionPane
 java.lang.StringBuilder
 java.lang.System
@@ -15001,6 +15115,7 @@ java.lang.NumberFormatException
 java.lang.String
 org.gjt.sp.jedit.options.BufferOptionPane$1
 java.util.Arrays
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory$WrapWidget$1
 org.gjt.sp.jedit.Buffer
 java.awt.event.MouseAdapter
@@ -15008,6 +15123,12 @@ org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory
 org.gjt.sp.jedit.View
 org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory$WrapWidget
 org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory$WrapWidget$1
+=======
+||:org.gjt.sp.util.TaskManager$1
+java.lang.Object
+org.gjt.sp.util.TaskManager$1
+org.gjt.sp.util.TaskManager
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.AboutDialog$AboutPanel
 java.awt.FontMetrics
 java.awt.RenderingHints
@@ -15046,10 +15167,13 @@ java.awt.Color
 org.gjt.sp.jedit.jEdit
 org.gjt.sp.jedit.gui.AboutDialog
 javax.swing.ImageIcon
+<<<<<<< HEAD
 ||:org.gjt.sp.util.TaskManager$1
 java.lang.Object
 org.gjt.sp.util.TaskManager$1
 org.gjt.sp.util.TaskManager
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.pluginmgr.MirrorListHandler
 java.lang.StringBuilder
 org.gjt.sp.jedit.pluginmgr.MirrorList
@@ -15170,6 +15294,13 @@ java.io.IOException
 java.lang.Object
 org.gjt.sp.jedit.browser.ListDirectoryBrowserTask
 java.lang.String
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.SplitConfigParser$1
+java.lang.Object
+org.gjt.sp.jedit.SplitConfigParser$1
+org.gjt.sp.jedit.SplitConfigParser
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.JCheckBoxList$LabelRenderer
 org.gjt.sp.jedit.gui.CheckBoxListModel
 java.awt.Font
@@ -15179,6 +15310,7 @@ org.gjt.sp.jedit.gui.JCheckBoxList$Entry
 org.gjt.sp.jedit.gui.JCheckBoxList
 javax.swing.table.DefaultTableCellRenderer
 javax.swing.UIManager
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.SplitConfigParser$1
 java.lang.Object
 org.gjt.sp.jedit.SplitConfigParser$1
@@ -15192,6 +15324,14 @@ org.gjt.sp.jedit.bsh.UtilEvalError
 org.gjt.sp.jedit.JEditBeanShellAction
 org.gjt.sp.util.Log
 org.gjt.sp.jedit.BeanShellFacade
+=======
+||:org.gjt.sp.util.GenericGUIUtilities$1$1
+java.lang.Object
+org.gjt.sp.util.GenericGUIUtilities$1$1
+java.awt.Component
+java.lang.Runnable
+org.gjt.sp.util.GenericGUIUtilities$1
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.FontSelectorDialog
 org.gjt.sp.util.GenericGUIUtilities
 org.gjt.sp.jedit.gui.FontSelectorDialog$ActionHandler
@@ -15226,12 +15366,24 @@ java.awt.Dimension
 java.lang.String
 java.awt.BorderLayout
 java.awt.GraphicsEnvironment
+<<<<<<< HEAD
 ||:org.gjt.sp.util.GenericGUIUtilities$1$1
 java.lang.Object
 org.gjt.sp.util.GenericGUIUtilities$1$1
 java.awt.Component
 java.lang.Runnable
 org.gjt.sp.util.GenericGUIUtilities$1
+=======
+||:org.gjt.sp.jedit.JEditBeanShellAction$MyBeanShellFacade
+org.gjt.sp.jedit.bsh.NameSpace
+org.gjt.sp.jedit.textarea.TextArea
+org.gjt.sp.jedit.JEditBeanShellAction$MyBeanShellFacade
+org.gjt.sp.jedit.JEditBeanShellAction$1
+org.gjt.sp.jedit.bsh.UtilEvalError
+org.gjt.sp.jedit.JEditBeanShellAction
+org.gjt.sp.util.Log
+org.gjt.sp.jedit.BeanShellFacade
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.ActionSet
 [Z
 java.lang.StringBuilder
@@ -15309,6 +15461,14 @@ org.gjt.sp.jedit.bsh.BSHEnhancedForStatement
 java.lang.Object
 org.gjt.sp.jedit.bsh.Interpreter
 org.gjt.sp.jedit.bsh.SimpleNode
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.indent.IndentAction$Increase
+java.lang.Object
+org.gjt.sp.jedit.buffer.JEditBuffer
+org.gjt.sp.jedit.indent.IndentAction$Increase
+org.gjt.sp.jedit.indent.IndentAction
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.statusbar.ModeWidgetFactory$ModeWidget
 org.gjt.sp.jedit.gui.statusbar.ToolTipLabel
 org.gjt.sp.jedit.gui.statusbar.ModeWidgetFactory$ModeWidget
@@ -15321,6 +15481,7 @@ javax.swing.JLabel
 org.gjt.sp.jedit.Buffer
 org.gjt.sp.jedit.View
 org.gjt.sp.jedit.gui.statusbar.Widget
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.indent.IndentAction$Increase
 java.lang.Object
 org.gjt.sp.jedit.buffer.JEditBuffer
@@ -15344,6 +15505,8 @@ org.gjt.sp.jedit.browser.VFSBrowser
 org.gjt.sp.jedit.browser.VFSBrowser$ActionHandler$1
 java.lang.Runnable
 org.gjt.sp.jedit.browser.VFSBrowser$ActionHandler
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.textarea.TextAreaPainter$PaintLineBackground
 java.awt.Graphics2D
 java.lang.Math
@@ -15362,6 +15525,27 @@ java.awt.FontMetrics
 org.gjt.sp.jedit.syntax.SyntaxStyle
 org.gjt.sp.jedit.buffer.JEditBuffer
 org.gjt.sp.jedit.textarea.TextAreaPainter
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.browser.VFSBrowser$ActionHandler$1
+java.lang.Object
+org.gjt.sp.jedit.browser.VFSBrowser
+org.gjt.sp.jedit.browser.VFSBrowser$ActionHandler$1
+java.lang.Runnable
+org.gjt.sp.jedit.browser.VFSBrowser$ActionHandler
+||:org.gjt.sp.jedit.bsh.TargetError
+java.lang.StringBuilder
+org.gjt.sp.jedit.bsh.Interpreter
+org.gjt.sp.jedit.bsh.InterpreterError
+org.gjt.sp.jedit.bsh.TargetError
+java.io.PrintStream
+java.lang.System
+org.gjt.sp.jedit.bsh.Capabilities
+java.lang.Throwable
+org.gjt.sp.jedit.bsh.EvalError
+java.lang.reflect.InvocationTargetException
+java.lang.String
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.statusbar.ErrorsWidgetFactory$ErrorWidget
 java.lang.Object
 org.gjt.sp.jedit.gui.statusbar.Widget
@@ -15432,6 +15616,7 @@ org.gjt.sp.util.IOUtilities
 java.lang.Object
 java.lang.String
 org.gjt.sp.jedit.pluginmgr.ManagePanel$SaveButton
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.io.VFSManager$1
 java.lang.Runnable
 java.util.Vector
@@ -15445,6 +15630,8 @@ java.lang.Throwable
 java.lang.Object
 org.gjt.sp.util.ThreadUtilities
 java.awt.Frame
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.statusbar.SelectionLengthWidgetFactory$SelectionLengthWidget
 org.gjt.sp.jedit.EditBus
 org.gjt.sp.jedit.EditBus$EBHandler
@@ -15462,6 +15649,22 @@ java.lang.Object
 org.gjt.sp.jedit.View
 java.lang.Integer
 org.gjt.sp.jedit.gui.statusbar.Widget
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.io.VFSManager$1
+java.lang.Runnable
+java.util.Vector
+org.gjt.sp.jedit.gui.ErrorListDialog$ErrorEntry
+org.gjt.sp.jedit.io.VFSManager$1
+org.gjt.sp.jedit.io.VFSManager
+org.gjt.sp.jedit.gui.ErrorListDialog
+javax.swing.JOptionPane
+org.gjt.sp.jedit.io.VFSManager$ErrorDisplayer
+java.lang.Throwable
+java.lang.Object
+org.gjt.sp.util.ThreadUtilities
+java.awt.Frame
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.EditPane
 java.lang.Class
 org.gjt.sp.jedit.bufferset.BufferSetListener
@@ -15652,6 +15855,17 @@ java.awt.Dimension
 java.lang.String
 java.awt.BorderLayout
 org.gjt.sp.jedit.gui.OptionsDialog
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.gui.statusbar.TaskMonitorWidgetFactory$TaskMonitorWidget$1
+java.awt.event.MouseAdapter
+org.gjt.sp.jedit.gui.statusbar.TaskMonitorWidgetFactory$TaskMonitorWidget
+org.gjt.sp.jedit.View
+org.gjt.sp.jedit.gui.statusbar.TaskMonitorWidgetFactory
+org.gjt.sp.jedit.gui.statusbar.TaskMonitorWidgetFactory$TaskMonitorWidget$1
+javax.swing.SwingUtilities
+org.gjt.sp.jedit.gui.DockableWindowManager
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.bsh.classpath.DiscreteFilesClassLoader
 java.lang.Object
 org.gjt.sp.jedit.bsh.classpath.DiscreteFilesClassLoader
@@ -15661,6 +15875,7 @@ org.gjt.sp.jedit.bsh.classpath.DiscreteFilesClassLoader$ClassSourceMap
 java.lang.ClassNotFoundException
 org.gjt.sp.jedit.bsh.classpath.BshClassLoader
 org.gjt.sp.jedit.bsh.classpath.BshClassPath
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.gui.statusbar.TaskMonitorWidgetFactory$TaskMonitorWidget$1
 java.awt.event.MouseAdapter
 org.gjt.sp.jedit.gui.statusbar.TaskMonitorWidgetFactory$TaskMonitorWidget
@@ -15669,6 +15884,8 @@ org.gjt.sp.jedit.gui.statusbar.TaskMonitorWidgetFactory
 org.gjt.sp.jedit.gui.statusbar.TaskMonitorWidgetFactory$TaskMonitorWidget$1
 javax.swing.SwingUtilities
 org.gjt.sp.jedit.gui.DockableWindowManager
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.browser.VFSBrowser$MenuButton$MouseHandler
 java.awt.event.MouseAdapter
 javax.swing.JPopupMenu
@@ -15744,6 +15961,18 @@ org.gjt.sp.jedit.msg.PluginUpdate
 [Ljava.lang.String;
 org.gjt.sp.jedit.PluginJAR
 java.lang.String
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.browser.VFSFileChooserDialog$GetFileTypeRequest
+java.lang.Throwable
+org.gjt.sp.jedit.browser.VFSFileChooserDialog$GetFileTypeRequest
+org.gjt.sp.jedit.io.VFSFile
+org.gjt.sp.jedit.bufferio.IoTask
+org.gjt.sp.jedit.io.VFSManager
+org.gjt.sp.jedit.browser.VFSFileChooserDialog
+org.gjt.sp.jedit.io.VFS
+java.io.IOException
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.GUIUtilities$UnixWorkaround
 java.lang.StringBuilder
 java.awt.Window
@@ -15759,6 +15988,7 @@ java.lang.Object
 java.awt.Rectangle
 java.lang.String
 java.awt.Frame
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.browser.VFSFileChooserDialog$GetFileTypeRequest
 java.lang.Throwable
 org.gjt.sp.jedit.browser.VFSFileChooserDialog$GetFileTypeRequest
@@ -15768,16 +15998,26 @@ org.gjt.sp.jedit.io.VFSManager
 org.gjt.sp.jedit.browser.VFSFileChooserDialog
 org.gjt.sp.jedit.io.VFS
 java.io.IOException
-||:org.gjt.sp.jedit.gui.RegisterViewer$InsertHandler
-java.lang.Object
-org.gjt.sp.jedit.gui.RegisterViewer$InsertHandler
-org.gjt.sp.jedit.gui.RegisterViewer
-java.awt.event.ActionListener
+=======
 ||:org.gjt.sp.jedit.io.VFS$SessionGetter
 java.lang.Object
 org.gjt.sp.jedit.io.VFS$SessionGetter
 org.gjt.sp.jedit.io.VFS
 java.lang.Runnable
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
+||:org.gjt.sp.jedit.gui.RegisterViewer$InsertHandler
+java.lang.Object
+org.gjt.sp.jedit.gui.RegisterViewer$InsertHandler
+org.gjt.sp.jedit.gui.RegisterViewer
+java.awt.event.ActionListener
+<<<<<<< HEAD
+||:org.gjt.sp.jedit.io.VFS$SessionGetter
+java.lang.Object
+org.gjt.sp.jedit.io.VFS$SessionGetter
+org.gjt.sp.jedit.io.VFS
+java.lang.Runnable
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.pluginmgr.InstallPanel$InstallButton
 org.gjt.sp.jedit.pluginmgr.InstallPanel$InstallButton
 org.gjt.sp.jedit.pluginmgr.Roster
@@ -15974,6 +16214,7 @@ org.gjt.sp.jedit.indent.IndentAction$AlignOffset
 org.gjt.sp.jedit.indent.IndentAction$Decrease
 org.gjt.sp.jedit.indent.IndentAction$Increase
 org.gjt.sp.jedit.indent.IndentAction$Reset
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.pluginmgr.ManagePanel$TextRenderer
 java.lang.String
 java.awt.Color
@@ -15983,6 +16224,8 @@ javax.swing.table.DefaultTableCellRenderer
 org.gjt.sp.jedit.pluginmgr.ManagePanel$PluginTableModel
 org.gjt.sp.jedit.pluginmgr.ManagePanel$Entry
 javax.swing.UIManager
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.DockableWindowManager$DockingLayout
 java.lang.StringBuilder
 org.gjt.sp.jedit.gui.DockableWindowManager$DockingLayout$1
@@ -15994,6 +16237,18 @@ org.gjt.sp.jedit.jEdit
 java.lang.Object
 org.gjt.sp.jedit.gui.DockableWindowManager
 java.lang.String
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.pluginmgr.ManagePanel$TextRenderer
+java.lang.String
+java.awt.Color
+org.gjt.sp.jedit.pluginmgr.ManagePanel$TextRenderer
+org.gjt.sp.jedit.pluginmgr.ManagePanel
+javax.swing.table.DefaultTableCellRenderer
+org.gjt.sp.jedit.pluginmgr.ManagePanel$PluginTableModel
+org.gjt.sp.jedit.pluginmgr.ManagePanel$Entry
+javax.swing.UIManager
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.search.SearchFileSet
 java.lang.Object
 org.gjt.sp.jedit.search.SearchFileSet
@@ -16050,16 +16305,27 @@ javax.swing.JLabel
 org.gjt.sp.jedit.View
 org.gjt.sp.jedit.gui.RolloverButton
 org.gjt.sp.jedit.gui.DockableWindow
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.search.HyperSearchResults$GoToNodeAction
 org.gjt.sp.jedit.search.HyperSearchResults
 org.gjt.sp.jedit.search.HyperSearchResults$GoToNodeAction
 javax.swing.AbstractAction
 org.gjt.sp.jedit.jEdit
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.FontSelectorDialog$1
 javax.swing.JLabel
 org.gjt.sp.jedit.gui.FontSelectorDialog
 org.gjt.sp.jedit.gui.FontSelector
 org.gjt.sp.jedit.gui.FontSelectorDialog$1
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.search.HyperSearchResults$GoToNodeAction
+org.gjt.sp.jedit.search.HyperSearchResults
+org.gjt.sp.jedit.search.HyperSearchResults$GoToNodeAction
+javax.swing.AbstractAction
+org.gjt.sp.jedit.jEdit
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.print.BufferPrintable1_7
 java.util.Set
 java.awt.geom.Rectangle2D$Double
@@ -16258,12 +16524,15 @@ org.gjt.sp.jedit.print.PrinterDialog
 org.gjt.sp.jedit.print.PrinterDialog$PageSetupPanel
 org.gjt.sp.jedit.print.PrinterDialog$PageSetupPanel$3
 java.awt.event.ActionListener
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.print.PrinterDialog$PageSetupPanel$2
 java.lang.Object
 org.gjt.sp.jedit.print.PrinterDialog
 org.gjt.sp.jedit.print.PrinterDialog$PageSetupPanel
 java.awt.event.ActionListener
 org.gjt.sp.jedit.print.PrinterDialog$PageSetupPanel$2
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.syntax.ModeProvider
 java.lang.Class
 java.nio.file.CopyOption
@@ -16306,6 +16575,15 @@ java.io.FileNotFoundException
 java.util.regex.Matcher
 java.nio.file.FileSystem
 java.nio.file.Path
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.print.PrinterDialog$PageSetupPanel$2
+java.lang.Object
+org.gjt.sp.jedit.print.PrinterDialog
+org.gjt.sp.jedit.print.PrinterDialog$PageSetupPanel
+java.awt.event.ActionListener
+org.gjt.sp.jedit.print.PrinterDialog$PageSetupPanel$2
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.print.PrinterDialog$PageSetupPanel$1
 java.lang.Object
 org.gjt.sp.jedit.print.PrinterDialog$PageSetupPanel$1
@@ -16421,16 +16699,26 @@ org.gjt.sp.jedit.gui.GrabKeyDialog
 ||:org.gjt.sp.jedit.buffer.BufferUndoListener
 java.lang.Object
 org.gjt.sp.jedit.buffer.BufferUndoListener
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.bsh.BSHSwitchLabel
 org.gjt.sp.jedit.bsh.SimpleNode
 org.gjt.sp.jedit.bsh.BSHSwitchLabel
 org.gjt.sp.jedit.bsh.EvalError
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.BufferOptions$ActionHandler
 java.lang.Object
 org.gjt.sp.jedit.gui.BufferOptions
 java.awt.event.ActionEvent
 org.gjt.sp.jedit.gui.BufferOptions$ActionHandler
 java.awt.event.ActionListener
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.bsh.BSHSwitchLabel
+org.gjt.sp.jedit.bsh.SimpleNode
+org.gjt.sp.jedit.bsh.BSHSwitchLabel
+org.gjt.sp.jedit.bsh.EvalError
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.help.HelpSearchPanel$ResultIcon
 java.awt.Graphics2D
 java.awt.RenderingHints$Key
@@ -16460,9 +16748,12 @@ java.lang.String
 org.xml.sax.helpers.XMLReaderFactory
 org.gjt.sp.util.IOUtilities
 java.lang.Exception
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.bsh.InterpreterError
 java.lang.RuntimeException
 org.gjt.sp.jedit.bsh.InterpreterError
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.jedit.core.FileOpenerService
 java.lang.Object
 java.lang.String
@@ -16470,9 +16761,27 @@ org.gjt.sp.jedit.ServiceManager
 org.jedit.core.FileOpenerService
 [Ljava.lang.String;
 org.gjt.sp.jedit.jEdit
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.menu.DynamicMenuProvider
 java.lang.Object
 org.gjt.sp.jedit.menu.DynamicMenuProvider
+=======
+||:org.gjt.sp.jedit.bsh.InterpreterError
+java.lang.RuntimeException
+org.gjt.sp.jedit.bsh.InterpreterError
+||:org.gjt.sp.jedit.menu.DynamicMenuProvider
+java.lang.Object
+org.gjt.sp.jedit.menu.DynamicMenuProvider
+||:org.gjt.sp.jedit.SplitConfigParser$BufferSet
+java.lang.String
+java.lang.Object
+org.gjt.sp.jedit.MiscUtilities
+java.util.ArrayList
+org.gjt.sp.jedit.SplitConfigParser$BufferSet
+java.lang.StringBuilder
+java.util.List
+org.gjt.sp.jedit.SplitConfigParser
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.statusbar.EncodingWidgetFactory$EncodingWidget
 org.gjt.sp.jedit.gui.statusbar.ToolTipLabel
 org.gjt.sp.jedit.jEdit
@@ -16484,6 +16793,7 @@ org.gjt.sp.jedit.Buffer
 javax.swing.JLabel
 org.gjt.sp.jedit.gui.statusbar.EncodingWidgetFactory
 org.gjt.sp.jedit.gui.statusbar.Widget
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.SplitConfigParser$BufferSet
 java.lang.String
 java.lang.Object
@@ -16493,6 +16803,8 @@ org.gjt.sp.jedit.SplitConfigParser$BufferSet
 java.lang.StringBuilder
 java.util.List
 org.gjt.sp.jedit.SplitConfigParser
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.statusbar.TaskMonitorWidgetFactory
 java.lang.Object
 org.gjt.sp.jedit.gui.statusbar.TaskMonitorWidgetFactory$1
@@ -16537,6 +16849,7 @@ org.gjt.sp.jedit.textarea.Selection$Rect
 java.lang.String
 org.gjt.sp.jedit.textarea.Selection
 org.gjt.sp.jedit.SettingsXML$Saver
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.indent.RegexpIndentRule
 org.gjt.sp.jedit.indent.IndentRule
 java.lang.StringBuilder
@@ -16551,6 +16864,8 @@ org.gjt.sp.jedit.indent.IndentAction
 java.lang.Object
 java.util.regex.PatternSyntaxException
 org.gjt.sp.jedit.buffer.JEditBuffer
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.ErrorListDialog
 javax.swing.JTextPane
 org.gjt.sp.jedit.gui.EnhancedDialog
@@ -16580,6 +16895,23 @@ org.gjt.sp.jedit.gui.ErrorListDialog$ErrorEntry
 java.awt.Frame
 java.lang.String
 java.awt.BorderLayout
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.indent.RegexpIndentRule
+org.gjt.sp.jedit.indent.IndentRule
+java.lang.StringBuilder
+java.util.regex.Pattern
+org.gjt.sp.jedit.indent.RegexpIndentRule$TokenFilter
+org.gjt.sp.jedit.indent.IndentAction$Collapse
+java.util.List
+java.lang.Class
+org.gjt.sp.jedit.indent.RegexpIndentRule
+java.util.regex.Matcher
+org.gjt.sp.jedit.indent.IndentAction
+java.lang.Object
+java.util.regex.PatternSyntaxException
+org.gjt.sp.jedit.buffer.JEditBuffer
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.textarea.StandaloneTextArea
 java.lang.Class
 org.gjt.sp.jedit.Mode
@@ -16645,23 +16977,34 @@ org.gjt.sp.jedit.bufferset.BufferSet$Scope
 org.gjt.sp.jedit.bufferset.BufferSet
 org.gjt.sp.jedit.jEdit
 java.lang.NoSuchFieldError
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.search.HyperSearchRequest$3
 java.lang.Object
 org.gjt.sp.jedit.search.HyperSearchResults
 org.gjt.sp.jedit.search.HyperSearchRequest
 org.gjt.sp.jedit.search.HyperSearchRequest$3
 java.lang.Runnable
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.jEdit$11
 org.gjt.sp.jedit.JEditMode
 org.gjt.sp.jedit.jEdit$11
 org.gjt.sp.jedit.ModeCatalogHandler
 org.gjt.sp.jedit.jEdit
 org.gjt.sp.jedit.Mode
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.search.HyperSearchRequest$2
 java.lang.Object
 org.gjt.sp.jedit.search.SearchAndReplace
 org.gjt.sp.jedit.search.HyperSearchRequest
 org.gjt.sp.jedit.search.HyperSearchRequest$2
+=======
+||:org.gjt.sp.jedit.search.HyperSearchRequest$3
+java.lang.Object
+org.gjt.sp.jedit.search.HyperSearchResults
+org.gjt.sp.jedit.search.HyperSearchRequest
+org.gjt.sp.jedit.search.HyperSearchRequest$3
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 java.lang.Runnable
 ||:org.gjt.sp.jedit.jEdit$10
 java.lang.Runnable
@@ -16677,6 +17020,15 @@ org.gjt.sp.jedit.Marker
 java.lang.String
 java.lang.Integer
 java.lang.Exception
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.search.HyperSearchRequest$2
+java.lang.Object
+org.gjt.sp.jedit.search.SearchAndReplace
+org.gjt.sp.jedit.search.HyperSearchRequest
+org.gjt.sp.jedit.search.HyperSearchRequest$2
+java.lang.Runnable
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.search.HyperSearchRequest$1
 java.lang.Object
 org.gjt.sp.jedit.search.HyperSearchResults
@@ -16730,6 +17082,7 @@ java.lang.NumberFormatException
 javax.swing.SwingConstants
 java.awt.BorderLayout
 org.gjt.sp.jedit.textarea.Selection
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter
 java.lang.StringBuilder
 java.lang.Double
@@ -16748,6 +17101,8 @@ org.gjt.sp.jedit.bsh.org.objectweb.asm.CodeWriter
 org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassVisitor
 java.lang.Integer
 java.lang.String
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.io.EncodingWithBOM
 java.io.ByteArrayInputStream
 java.lang.StringBuilder
@@ -16767,6 +17122,27 @@ java.io.SequenceInputStream
 java.lang.Object
 java.lang.String
 java.util.Arrays
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter
+java.lang.StringBuilder
+java.lang.Double
+[Lorg.gjt.sp.jedit.bsh.org.objectweb.asm.Item;
+java.lang.Float
+[B
+java.lang.IllegalArgumentException
+java.lang.Long
+org.gjt.sp.jedit.bsh.org.objectweb.asm.ByteVector
+org.gjt.sp.jedit.bsh.org.objectweb.asm.Constants
+java.lang.Object
+[Ljava.lang.String;
+org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassWriter
+org.gjt.sp.jedit.bsh.org.objectweb.asm.Item
+org.gjt.sp.jedit.bsh.org.objectweb.asm.CodeWriter
+org.gjt.sp.jedit.bsh.org.objectweb.asm.ClassVisitor
+java.lang.Integer
+java.lang.String
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.util.ThreadUtilities$1
 java.lang.Object
 org.gjt.sp.util.ThreadUtilities
@@ -16804,15 +17180,25 @@ org.gjt.sp.jedit.datatransfer.JEditTransferable
 java.lang.Object
 org.gjt.sp.jedit.datatransfer.TransferHandler
 java.lang.String
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.options.BufferOptionPane$1
+java.lang.Object
+org.gjt.sp.jedit.options.BufferOptionPane
+org.gjt.sp.jedit.options.BufferOptionPane$1
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.DockableWindowContainer
 java.lang.Object
 org.gjt.sp.jedit.gui.DockableWindowContainer
 org.gjt.sp.jedit.gui.DockableWindowManagerImpl$Entry
 org.gjt.sp.jedit.gui.DockableWindowManagerImpl
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.options.BufferOptionPane$1
 java.lang.Object
 org.gjt.sp.jedit.options.BufferOptionPane
 org.gjt.sp.jedit.options.BufferOptionPane$1
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.statusbar.MemoryStatusWidgetFactory$MemoryStatusWidget
 java.lang.Object
 org.gjt.sp.jedit.gui.statusbar.Widget
@@ -16825,16 +17211,26 @@ org.gjt.sp.jedit.pluginmgr.InstallPanel
 org.gjt.sp.jedit.pluginmgr.InstallPanel$7
 java.lang.NoSuchFieldError
 org.gjt.sp.jedit.pluginmgr.KeyboardCommand
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.textarea.ScrollListener
+java.lang.Object
+java.util.EventListener
+org.gjt.sp.jedit.textarea.ScrollListener
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.pluginmgr.InstallPanel$6
 java.lang.Object
 javax.swing.JTextField
 java.lang.Runnable
 org.gjt.sp.jedit.pluginmgr.InstallPanel
 org.gjt.sp.jedit.pluginmgr.InstallPanel$6
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.textarea.ScrollListener
 java.lang.Object
 java.util.EventListener
 org.gjt.sp.jedit.textarea.ScrollListener
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.pluginmgr.InstallPanel$5
 java.lang.Object
 javax.swing.JCheckBox
@@ -16857,17 +17253,28 @@ javax.swing.JTextField
 org.gjt.sp.jedit.pluginmgr.InstallPanel
 org.gjt.sp.jedit.pluginmgr.InstallPanel$PluginTableModel
 javax.swing.event.DocumentListener
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.gui.ExtendedGridLayout$LayoutSize
 java.lang.Enum
 [Lorg.gjt.sp.jedit.gui.ExtendedGridLayout$LayoutSize;
 org.gjt.sp.jedit.gui.ExtendedGridLayout$LayoutSize
 org.gjt.sp.jedit.gui.ExtendedGridLayout
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.pluginmgr.InstallPanel$2
 org.gjt.sp.jedit.pluginmgr.InstallPanel$2
 javax.swing.JTable
 java.awt.event.KeyAdapter
 org.gjt.sp.jedit.pluginmgr.InstallPanel
 java.awt.event.KeyEvent
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.gui.ExtendedGridLayout$LayoutSize
+java.lang.Enum
+[Lorg.gjt.sp.jedit.gui.ExtendedGridLayout$LayoutSize;
+org.gjt.sp.jedit.gui.ExtendedGridLayout$LayoutSize
+org.gjt.sp.jedit.gui.ExtendedGridLayout
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.pluginmgr.InstallPanel$1
 java.lang.Object
 org.gjt.sp.jedit.pluginmgr.InstallPanel$1
@@ -16901,6 +17308,7 @@ org.gjt.sp.jedit.gui.DockableWindowManager
 org.gjt.sp.jedit.options.WindowTableModel
 java.lang.String
 javax.swing.table.AbstractTableModel
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.buffer.UndoManager$Edit
 java.lang.Object
 org.gjt.sp.jedit.buffer.UndoManager$1
@@ -16911,6 +17319,8 @@ java.lang.Object
 org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory
 org.gjt.sp.jedit.gui.statusbar.StatusWidgetFactory
 org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory$WrapWidget
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.indent.CloseBracketIndentRule$AlignBracket
 java.lang.Object
 org.gjt.sp.jedit.buffer.JEditBuffer
@@ -16919,6 +17329,7 @@ org.gjt.sp.jedit.indent.CloseBracketIndentRule
 org.gjt.sp.jedit.indent.CloseBracketIndentRule$AlignBracket
 org.gjt.sp.jedit.indent.IndentAction
 org.gjt.sp.jedit.TextUtilities
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.msg.PropertiesChanging
 org.gjt.sp.jedit.msg.PropertiesChanging
 java.lang.Class
@@ -16926,6 +17337,18 @@ java.lang.AssertionError
 org.gjt.sp.jedit.msg.PropertiesChanging$State
 org.gjt.sp.jedit.EBMessage
 org.gjt.sp.jedit.EBComponent
+=======
+||:org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory
+java.lang.Object
+org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory
+org.gjt.sp.jedit.gui.statusbar.StatusWidgetFactory
+org.gjt.sp.jedit.gui.statusbar.WrapWidgetFactory$WrapWidget
+||:org.gjt.sp.jedit.buffer.UndoManager$Edit
+java.lang.Object
+org.gjt.sp.jedit.buffer.UndoManager$1
+org.gjt.sp.jedit.buffer.UndoManager$Edit
+org.gjt.sp.jedit.buffer.UndoManager
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.help.HelpTOCPanel$2
 java.lang.Runnable
 org.gjt.sp.jedit.help.HelpTOCPanel
@@ -16937,6 +17360,16 @@ java.lang.Object
 javax.swing.JTree
 org.gjt.sp.jedit.help.HelpViewerInterface
 org.gjt.sp.jedit.help.HelpTOCPanel$2
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.msg.PropertiesChanging
+org.gjt.sp.jedit.msg.PropertiesChanging
+java.lang.Class
+java.lang.AssertionError
+org.gjt.sp.jedit.msg.PropertiesChanging$State
+org.gjt.sp.jedit.EBMessage
+org.gjt.sp.jedit.EBComponent
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.help.HelpTOCPanel$1
 java.lang.Object
 org.gjt.sp.jedit.help.HelpTOCPanel
@@ -16980,17 +17413,28 @@ java.lang.String
 java.awt.BorderLayout
 java.util.Set
 java.util.Arrays
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.bsh.Primitive$Special
 java.lang.Object
 java.io.Serializable
 org.gjt.sp.jedit.bsh.Primitive
 org.gjt.sp.jedit.bsh.Primitive$Special
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.statusbar.MemoryStatusWidgetFactory
 java.lang.Object
 org.gjt.sp.jedit.gui.statusbar.StatusWidgetFactory
 org.gjt.sp.jedit.gui.statusbar.MemoryStatusWidgetFactory$MemoryStatusWidget
 org.gjt.sp.jedit.gui.statusbar.MemoryStatusWidgetFactory
 org.gjt.sp.jedit.gui.statusbar.MemoryStatusWidgetFactory$MemoryStatus
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.bsh.Primitive$Special
+java.lang.Object
+java.io.Serializable
+org.gjt.sp.jedit.bsh.Primitive
+org.gjt.sp.jedit.bsh.Primitive$Special
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.ColorWellButton
 java.awt.Insets
 java.awt.Color
@@ -17004,17 +17448,28 @@ java.lang.Object
 org.gjt.sp.jedit.browser.BrowserView$LoadingPlaceholder
 org.gjt.sp.jedit.browser.BrowserView
 org.gjt.sp.jedit.browser.BrowserView$1
+<<<<<<< HEAD
+=======
+||:org.jedit.migration.CheckFileStatus
+org.gjt.sp.jedit.options.GeneralOptionPane
+org.jedit.migration.OneTimeMigrationService
+org.gjt.sp.jedit.jEdit
+org.jedit.migration.CheckFileStatus
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.help.HelpIndex$Word
 java.lang.Object
 java.lang.System
 org.gjt.sp.jedit.help.HelpIndex$Word$Occurrence
 org.gjt.sp.jedit.help.HelpIndex
 org.gjt.sp.jedit.help.HelpIndex$Word
+<<<<<<< HEAD
 ||:org.jedit.migration.CheckFileStatus
 org.gjt.sp.jedit.options.GeneralOptionPane
 org.jedit.migration.OneTimeMigrationService
 org.gjt.sp.jedit.jEdit
 org.jedit.migration.CheckFileStatus
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.options.StatusBarOptionPane$WidgetSelectionDialog$ActionHandler
 javax.swing.JComboBox
 org.gjt.sp.jedit.options.StatusBarOptionPane
@@ -17094,6 +17549,23 @@ org.gjt.sp.jedit.bsh.Capabilities
 org.gjt.sp.jedit.bsh.Reflect
 java.lang.String
 org.gjt.sp.jedit.bsh.SimpleNode
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.textarea.ColumnBlock
+org.gjt.sp.jedit.textarea.ColumnBlock
+java.lang.StringBuilder
+java.util.Vector
+java.lang.Thread
+org.gjt.sp.jedit.textarea.Selection
+org.gjt.sp.jedit.textarea.Selection$Rect
+java.lang.IllegalArgumentException
+org.gjt.sp.jedit.textarea.ColumnBlockLine
+java.lang.System
+java.lang.Throwable
+org.gjt.sp.jedit.textarea.Node
+java.lang.Object
+org.gjt.sp.jedit.buffer.JEditBuffer
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.print.PrinterDialog$GeneralPanel
 javax.swing.JRadioButton
 javax.swing.ListModel
@@ -17130,6 +17602,7 @@ org.gjt.sp.jedit.print.PrinterDialog$MyButtonGroup
 javax.print.attribute.standard.PageRanges
 java.lang.String
 java.awt.BorderLayout
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.textarea.ColumnBlock
 org.gjt.sp.jedit.textarea.ColumnBlock
 java.lang.StringBuilder
@@ -17144,6 +17617,8 @@ java.lang.Throwable
 org.gjt.sp.jedit.textarea.Node
 java.lang.Object
 org.gjt.sp.jedit.buffer.JEditBuffer
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.jEdit$JEditPropertyManager
 java.lang.Object
 org.gjt.sp.jedit.jEdit$JEditPropertyManager
@@ -17185,11 +17660,14 @@ javax.swing.table.TableModel
 java.awt.event.InputEvent
 org.gjt.sp.jedit.browser.VFSDirectoryEntryTableModel
 org.gjt.sp.jedit.browser.FileCellRenderer
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.io.CopyFileWorker$Behavior
 org.gjt.sp.jedit.io.CopyFileWorker
 org.gjt.sp.jedit.io.CopyFileWorker$Behavior
 java.lang.Enum
 [Lorg.gjt.sp.jedit.io.CopyFileWorker$Behavior;
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.options.DockingOptionPane
 java.awt.FlowLayout
 org.gjt.sp.jedit.options.DockingOptionPane$2
@@ -17220,6 +17698,14 @@ javax.swing.table.JTableHeader
 java.lang.String
 java.awt.BorderLayout
 javax.swing.table.TableColumn
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.io.CopyFileWorker$Behavior
+org.gjt.sp.jedit.io.CopyFileWorker
+org.gjt.sp.jedit.io.CopyFileWorker$Behavior
+java.lang.Enum
+[Lorg.gjt.sp.jedit.io.CopyFileWorker$Behavior;
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.AbstractContextOptionPane$ListHandler
 java.lang.Object
 org.gjt.sp.jedit.gui.AbstractContextOptionPane
@@ -17240,6 +17726,13 @@ javax.swing.JCheckBox
 [Ljava.lang.String;
 java.lang.String
 java.lang.Integer
+<<<<<<< HEAD
+=======
+||:org.gjt.sp.jedit.options.SaveBackupOptionPane$1
+java.lang.Object
+org.gjt.sp.jedit.options.SaveBackupOptionPane
+org.gjt.sp.jedit.options.SaveBackupOptionPane$1
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.gui.EditAbbrevDialog
 org.gjt.sp.util.GenericGUIUtilities
 javax.swing.BoxLayout
@@ -17262,10 +17755,13 @@ java.lang.String
 javax.swing.JOptionPane
 java.awt.BorderLayout
 javax.swing.WindowConstants
+<<<<<<< HEAD
 ||:org.gjt.sp.jedit.options.SaveBackupOptionPane$1
 java.lang.Object
 org.gjt.sp.jedit.options.SaveBackupOptionPane
 org.gjt.sp.jedit.options.SaveBackupOptionPane$1
+=======
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 ||:org.gjt.sp.jedit.buffer.LineManager
 java.lang.StringBuilder
 org.gjt.sp.util.IntegerArray

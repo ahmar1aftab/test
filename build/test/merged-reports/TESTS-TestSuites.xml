@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
+<<<<<<< HEAD
   <testsuite errors="0" failures="0" hostname="DESKTOP-1H1IP2H" id="0" name="Native2ASCIIEncodingTest" package="org.jedit.io" skipped="0" tests="108" time="0.55" timestamp="2018-03-06T08:35:40">
+=======
+  <testsuite errors="0" failures="0" hostname="DESKTOP-1H1IP2H" id="0" name="Native2ASCIIEncodingTest" package="org.jedit.io" skipped="0" tests="108" time="0.733" timestamp="2018-03-05T23:11:30">
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
       <properties>
           <property name="config.lib.dir" value="lib" />
 
@@ -132,7 +136,11 @@
 
           <property name="ivy.targets.copied" value="false" />
 
+<<<<<<< HEAD
           <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.jedit.io.Native2ASCIIEncodingTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Ahmar Aftab\eclipse-jEdit\jEdit\build\test\raw-reports\TEST-org.jedit.io.Native2ASCIIEncodingTest.xml crashfile=C:\Users\Ahmar Aftab\eclipse-jEdit\jEdit\junitvmwatcher7259559751679279866.properties propsfile=C:\Users\Ahmar Aftab\eclipse-jEdit\jEdit\junit3518496863074035957.properties" />
+=======
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.jedit.io.Native2ASCIIEncodingTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Ahmar Aftab\eclipse-jEdit\jEdit\build\test\raw-reports\TEST-org.jedit.io.Native2ASCIIEncodingTest.xml crashfile=C:\Users\Ahmar Aftab\eclipse-jEdit\jEdit\junitvmwatcher4555320094750207794.properties propsfile=C:\Users\Ahmar Aftab\eclipse-jEdit\jEdit\junit1432082664714650596.properties" />
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 
           <property name="ivy.shared.default.artifact.pattern" value="[organisation]/[module]/[revision]/[type]s/[artifact].[ext]" />
 
@@ -244,7 +252,11 @@
 
           <property name="ivy.version" value="2.2.0" />
 
+<<<<<<< HEAD
           <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\scala\bin;D:\Hadoop\hadoop-2.7.4\bin;C:\Program Files\PuTTY\;C:\PROGRA~1\Java\JDK18~1.0_1\bin;D:\spark\spark-2.2.0-bin-hadoop2.7\bin;D:\apache-maven-3.5.2\bin;C:\Program Files\MATLAB\R2017b\bin;C:\Program Files\gettext-iconv\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\Ahmar Aftab\AppData\Local\Microsoft\WindowsApps;C:\Program Files\gettext-iconv\bin;C:\Users\Ahmar Aftab\AppData\Local\GitHubDesktop\bin;;." />
+=======
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\scala\bin;D:\Hadoop\hadoop-2.7.4\bin;C:\Program Files\PuTTY\;C:\PROGRA~1\Java\JDK18~1.0_1\bin;D:\spark\spark-2.2.0-bin-hadoop2.7\bin;D:\apache-maven-3.5.2\bin;C:\Program Files\MATLAB\R2017b\bin;;C:\Program Files\gettext-iconv\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\Ahmar Aftab\AppData\Local\Microsoft\WindowsApps;C:\Program Files\gettext-iconv\bin;C:\Users\Ahmar Aftab\AppData\Local\GitHubDesktop\bin;;." />
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 
           <property name="ivy.conf.url" value="file:/C:/Users/Ahmar%20Aftab/eclipse-jEdit/jEdit/build/ivysettings.xml" />
 
@@ -294,7 +306,11 @@
 
           <property name="ivy.default.always.check.exact.revision.ivy.instance" value="false" />
 
+<<<<<<< HEAD
           <property name="java.library.path.ivy.instance" value="C:\Progra~1\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\scala\bin;D:\Hadoop\hadoop-2.7.4\bin;C:\Program Files\PuTTY\;C:\PROGRA~1\Java\JDK18~1.0_1\bin;D:\spark\spark-2.2.0-bin-hadoop2.7\bin;D:\apache-maven-3.5.2\bin;C:\Program Files\MATLAB\R2017b\bin;C:\Program Files\gettext-iconv\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\Ahmar Aftab\AppData\Local\Microsoft\WindowsApps;C:\Program Files\gettext-iconv\bin;C:\Users\Ahmar Aftab\AppData\Local\GitHubDesktop\bin;;.;C:\Users\Ahmar%20Aftab\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\676\0\.cp" />
+=======
+          <property name="java.library.path.ivy.instance" value="C:\Progra~1\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\PROGRA~2\scala\bin;D:\Hadoop\hadoop-2.7.4\bin;C:\Program Files\PuTTY\;C:\PROGRA~1\Java\JDK18~1.0_1\bin;D:\spark\spark-2.2.0-bin-hadoop2.7\bin;D:\apache-maven-3.5.2\bin;C:\Program Files\MATLAB\R2017b\bin;;C:\Program Files\gettext-iconv\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\Ahmar Aftab\AppData\Local\Microsoft\WindowsApps;C:\Program Files\gettext-iconv\bin;C:\Users\Ahmar Aftab\AppData\Local\GitHubDesktop\bin;;.;C:\Users\Ahmar%20Aftab\eclipse\java-oxygen\eclipse\configuration\org.eclipse.osgi\676\0\.cp" />
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 
           <property name="awt.toolkit.ivy.instance" value="sun.awt.windows.WToolkit" />
 
@@ -368,7 +384,11 @@
 
           <property name="java.vm.info.ivy.instance" value="mixed mode" />
 
+<<<<<<< HEAD
           <property name="sun.java.command.ivy.instance" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1520325332943 -Declipse.connect.port=51885 -Dant.home=C:\Users\Ahmar Aftab\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\Ahmar Aftab\eclipse-jEdit\jEdit\build.xml" />
+=======
+          <property name="sun.java.command.ivy.instance" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1520291468093 -Declipse.connect.port=64265 -Dant.home=C:\Users\Ahmar Aftab\.p2\pool\plugins\org.apache.ant_1.10.1.v20170504-0840 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Users\Ahmar Aftab\eclipse-jEdit\jEdit\build.xml" />
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 
           <property name="ivy.distrib.dir" value="C:\Users\Ahmar Aftab\eclipse-jEdit\jEdit/distrib" />
 
@@ -478,6 +498,7 @@
 
       </properties>
 
+<<<<<<< HEAD
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.005" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.001" />
@@ -693,6 +714,223 @@
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="multipleSkipCallsShouldWork" time="0.0" />
 
       <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldConvertEscapeSequence" time="0.0" />
+=======
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.035" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.002" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeASCIICharactersCorrectly" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_int_int_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldCorrectlyHandleEOF" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldCorrectlyHandleEOFAfterBackslash" time="0.003" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeNullCorrectly" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_char_ShouldEncodeASCIICharactersCorrectly" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldSkipGivenAmountIfAvailable" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldNotDoAnythingIfToSkipIsZero" time="0.004" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldThrowExceptionIfToSkipIsNegative" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldCorrectlyHandleEOF" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_int_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readerShouldBeAbleToDecodeWhatWriterHasEncoded" time="0.003" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="textReaderWithNullAsClassParameterShouldWork" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldConvertEscapeSequenceWithThrottledInputStream" time="0.003" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptMalformedInputWithThrottledReader" time="0.002" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readerShouldDecodeIfWriterHasWrittenEscapeSequenceAsSingleCharacters" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldConvertEscapeSequenceWithThrottledInputStream" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldConvertEscapeSequenceWithThrottledInputStream" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_shouldReadOnAfterCollapsingEscapeSequences" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptMalformedInputWithThrottledReader" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldReadBackslashWithoutFollowingUAsBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptMalformedInputWithThrottledReader" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldConvertEscapeSequenceThatFollowsTwoBackslashes" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldConvertEscapeSequence" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="multipleSkipCallsShouldWork" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldCorrectlyHandleEOF" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptIncompleteEscapeSequence" time="0.006" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleLessThan5NonEscapeCharactersAfterBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleEOF" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptMissingInputAfterU" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreEscapeSequenceThatFollowsThreeBackslashes" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldCorrectlyHandleEOFAfterBackslash" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreMalformedEscapeSequenceThatFollowsOneBackslash" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreIncompleteEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="differentReadMethodsShouldHaveACommonEscapeSequenceHandling" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptMalformedInput" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="skipShouldSkipAllIfToSkipIsGreaterThanInputLength" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldConvertEscapeSequenceThatFollowsTwoBackslashes" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="differentReadMethodsShouldBeUsableOnTheSameStream" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldCorrectlyHandleEOFAfterBackslash" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldReadBackslashWithoutFollowingUAsBackslash" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldReadBackslashWithoutFollowingUAsBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readerShouldReadSingleCharactersIfWriterAddedAnEscapingBackslash" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_shouldReadOnAfterCollapsingEscapeSequences" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_int_int_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_int_int_ShouldEncodeASCIICharactersCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_ShouldEncodeASCIICharactersCorrectly" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_ShouldEncodeASCIICharactersCorrectly" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldConvertEscapeSequence" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptMalformedInput" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_shouldReadOnAfterCollapsingEscapeSequences" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMissingInputAfterU" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMissingInputAfterU" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptIncompleteEscapeSequence" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_int_int_ShouldAcceptMissingInputAfterU" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldCorrectlyHandleEOFAfterBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnMalformedInputWithThrottledReader" time="0.003" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldReadBackslashWithoutFollowingUAsBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptIncompleteEscapeSequence" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptIncompleteEscapeSequence" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldConvertEscapeSequenceWithThrottledInputStream" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_CharBuffer_ShouldAcceptMissingInputAfterU" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptMalformedInputWithThrottledReader" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldIgnoreEscapeSequenceThatFollowsOneBackslash" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnMissingInputAfterU" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnIncompleteEscapeSequence" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_int_int_ShouldThrowExceptionOnMalformedInput" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldThrowExceptionOnMalformedInput" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveRead_charArray_ShouldAcceptMalformedInput" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldThrowExceptionOnMalformedInput" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_charArray_ShouldConvertEscapeSequence" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnMissingInputAfterU" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="readShouldThrowExceptionOnMalformedInput" time="0.001" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptMissingInputAfterU" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="read_CharBuffer_ShouldConvertEscapeSequence" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="permissiveReadShouldAcceptMalformedInput" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_charArray_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_int_int_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_CharSequence_int_int_ShouldEncodeNullCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="append_char_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+
+      <testcase classname="org.jedit.io.Native2ASCIIEncodingTest" name="write_String_ShouldEncodeNonASCIICharactersCorrectly" time="0.0" />
+>>>>>>> d61309110fed2ab45ca04b5791ceaaa9922f765c
 
       <system-out><![CDATA[]]></system-out>
 
